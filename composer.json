@@ -1,0 +1,24 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-users",
+    "description": "Core Users System for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/myrtle-core-dock-docks": "dev-master",
+        "agilesdesign/pseudo": "1.0.0-alpha.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Users\\": "src/Users"
+        }
+    }
+}
