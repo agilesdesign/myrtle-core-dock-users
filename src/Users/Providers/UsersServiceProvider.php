@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Myrtle\Docks\Facades\Docks;
-use Myrtle\Permissions\Models\Ability;
+use Myrtle\Core\Permissions\Models\Ability;
 use Myrtle\Core\Users\Auth\MyrtleUserProvider;
 use Myrtle\Core\Users\Http\Middleware\LogoutDisabledUsers;
 use Myrtle\Core\Users\Models\Guest;

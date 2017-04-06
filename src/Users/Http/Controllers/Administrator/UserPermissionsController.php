@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use Myrtle\Docks\Dock;
-use Myrtle\Permissions\Models\Ability;
+use Myrtle\Core\Permissions\Models\Ability;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\Roles\Models\Role;
