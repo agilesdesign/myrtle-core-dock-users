@@ -23,6 +23,10 @@
         "agilesdesign/myrtle-core-dock-phones": "dev-master",
         "agilesdesign/myrtle-core-dock-roles": "dev-master"
     },
+    "require-dev": {
+        "laravel/socialite": "^3.0",
+        "laravel/laravel": "5.4.*"
+    },
     "autoload": {
         "classmap": [
             "src/database",
@@ -31,9 +35,5 @@
         "psr-4": {
             "Myrtle\\Core\\Users\\": "src/Users"
         }
-    },
-    "require-dev": {
-        "laravel/socialite": "^3.0",
-        "laravel/laravel": "5.4.*"
     }
 }

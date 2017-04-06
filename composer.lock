@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "573fa28ed833b7c531214a4c10af8d7f",
+    "content-hash": "2b90fac820c318c65a5dd5a96f87d914",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -138,15 +138,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git",
-                "reference": "a94e427b028a8c6928a4e29ca61ba790c49eb4fd"
+                "reference": "735c9a5673e209127450f84ee84a9613eae994db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/a94e427b028a8c6928a4e29ca61ba790c49eb4fd",
-                "reference": "a94e427b028a8c6928a4e29ca61ba790c49eb4fd",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/735c9a5673e209127450f84ee84a9613eae994db",
+                "reference": "735c9a5673e209127450f84ee84a9613eae994db",
                 "shasum": ""
             },
-            "require": {
+            "require-dev": {
                 "agilesdesign/myrtle-core-dock-docks": "dev-master"
             },
             "type": "library",
@@ -173,7 +173,7 @@
                 "source": "https://github.com/agilesdesign/myrtle-core-dock-permissions/tree/master",
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-permissions/issues"
             },
-            "time": "2017-04-05 00:08:39"
+            "time": "2017-04-06 16:53:33"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-phones",
@@ -2526,8 +2526,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "agilesdesign/myrtle-core-dock-docks": 20,
         "agilesdesign/myrtle-core-dock-addresses": 20,
+        "agilesdesign/myrtle-core-dock-docks": 20,
         "agilesdesign/myrtle-core-dock-permissions": 20,
         "agilesdesign/myrtle-core-dock-phones": 20,
         "agilesdesign/myrtle-core-dock-roles": 20
