@@ -12,7 +12,7 @@ use Myrtle\Core\Permissions\Models\Traits\CanView;
 use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
 use Myrtle\Core\Phones\Models\Traits\Phoneable;
 use Myrtle\Core\Addresses\Models\Traits\Addressable;
-use Myrtle\Roles\Models\Traits\Roleable;
+use Myrtle\Core\Roles\Models\Traits\Roleable;
 use Myrtle\Core\Users\Events\UserCreating;
 use Myrtle\Core\Users\Events\UserDeleted;
 use Myrtle\Core\Users\Events\UserDeleting;

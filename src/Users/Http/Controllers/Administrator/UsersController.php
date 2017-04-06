@@ -10,7 +10,7 @@ use Myrtle\Genders\Models\Gender;
 use App\Http\Controllers\Controller;
 use Myrtle\MaritalStatuses\Models\MaritalStatus;
 use Myrtle\Religions\Models\Religion;
-use Myrtle\Roles\Models\Role;
+use Myrtle\Core\Roles\Models\Role;
 use Myrtle\Core\Users\Models\User;
 use Myrtle\Core\Users\Policies\UserPolicy;
 use Myrtle\Core\Users\Http\Requests\StoreUserForm;

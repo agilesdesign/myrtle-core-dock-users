@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Users\Models;
 
-use Myrtle\Roles\Models\Role;
+use Myrtle\Core\Roles\Models\Role;
 use Pseudo\Auth\Guest as PseudoGuest;
 use Myrtle\Core\Users\Models\Traits\UserPermissions;
 

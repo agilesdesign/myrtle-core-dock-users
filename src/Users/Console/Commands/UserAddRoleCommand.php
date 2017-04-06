@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Users\Console\Commands;
 
-use Myrtle\Roles\Models\Role;
+use Myrtle\Core\Roles\Models\Role;
 use Illuminate\Console\Command;
 use Myrtle\Core\Users\Models\UserEmail;
 

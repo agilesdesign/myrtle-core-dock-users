@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "30116f08d6fc099e20d8b5596f9d9d4f",
+    "content-hash": "573fa28ed833b7c531214a4c10af8d7f",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -133,6 +133,49 @@
             "time": "2017-04-06 16:10:05"
         },
         {
+            "name": "agilesdesign/myrtle-core-dock-permissions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-permissions.git",
+                "reference": "a94e427b028a8c6928a4e29ca61ba790c49eb4fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-permissions/zipball/a94e427b028a8c6928a4e29ca61ba790c49eb4fd",
+                "reference": "a94e427b028a8c6928a4e29ca61ba790c49eb4fd",
+                "shasum": ""
+            },
+            "require": {
+                "agilesdesign/myrtle-core-dock-docks": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Permissions\\": "src/Permissions"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Permissions Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-permissions/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-permissions/issues"
+            },
+            "time": "2017-04-05 00:08:39"
+        },
+        {
             "name": "agilesdesign/myrtle-core-dock-phones",
             "version": "dev-master",
             "source": {
@@ -174,6 +217,46 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-phones/issues"
             },
             "time": "2017-04-05 00:15:18"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-roles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git",
+                "reference": "cf8840e882cd94108adff2b6a988e651d066736b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-roles/zipball/cf8840e882cd94108adff2b6a988e651d066736b",
+                "reference": "cf8840e882cd94108adff2b6a988e651d066736b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Roles\\": "src/Roles"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Roles Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-roles/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-roles/issues"
+            },
+            "time": "2017-04-06 16:19:04"
         }
     ],
     "packages-dev": [
@@ -2445,7 +2528,9 @@
     "stability-flags": {
         "agilesdesign/myrtle-core-dock-docks": 20,
         "agilesdesign/myrtle-core-dock-addresses": 20,
-        "agilesdesign/myrtle-core-dock-phones": 20
+        "agilesdesign/myrtle-core-dock-permissions": 20,
+        "agilesdesign/myrtle-core-dock-phones": 20,
+        "agilesdesign/myrtle-core-dock-roles": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

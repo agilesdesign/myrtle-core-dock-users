@@ -4,8 +4,8 @@ namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Roles\Models\Role;
-use Myrtle\Roles\Policies\RolesPolicy;
+use Myrtle\Core\Roles\Models\Role;
+use Myrtle\Core\Roles\Policies\RolesPolicy;
 use Myrtle\Core\Users\Models\User;
 
 class UserRolesController extends Controller
