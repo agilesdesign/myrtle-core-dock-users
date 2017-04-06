@@ -10,7 +10,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Myrtle\Core\Permissions\Models\Traits\CanView;
 use Myrtle\Core\Permissions\Models\Traits\DefinesAbilities;
-use Myrtle\Phones\Models\Traits\Phoneable;
+use Myrtle\Core\Phones\Models\Traits\Phoneable;
 use Myrtle\Core\Addresses\Models\Traits\Addressable;
 use Myrtle\Roles\Models\Traits\Roleable;
 use Myrtle\Core\Users\Events\UserCreating;
