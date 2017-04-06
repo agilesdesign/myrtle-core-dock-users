@@ -1,6 +1,7 @@
 {
     "name": "agilesdesign/myrtle-core-dock-users",
     "description": "Core Users System for Myrtle WMS",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -22,5 +23,9 @@
         "psr-4": {
             "Myrtle\\Core\\Users\\": "src/Users"
         }
+    },
+    "require-dev": {
+        "laravel/socialite": "^3.0",
+        "laravel/laravel": "5.4.*"
     }
 }
