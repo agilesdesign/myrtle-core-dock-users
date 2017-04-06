@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5170adea9b17767dcfade1ce6003f0d",
+    "content-hash": "30116f08d6fc099e20d8b5596f9d9d4f",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -131,6 +131,49 @@
                 "issues": "https://github.com/agilesdesign/myrtle-core-dock-docks/issues"
             },
             "time": "2017-04-06 16:10:05"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-phones",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git",
+                "reference": "a69391991e1c594573643c9c36df2eccd2cc113f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-phones/zipball/a69391991e1c594573643c9c36df2eccd2cc113f",
+                "reference": "a69391991e1c594573643c9c36df2eccd2cc113f",
+                "shasum": ""
+            },
+            "require": {
+                "agilesdesign/myrtle-core-dock-docks": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Phones\\": "src/Phones"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Phones Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-phones/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-phones/issues"
+            },
+            "time": "2017-04-05 00:15:18"
         }
     ],
     "packages-dev": [
@@ -2401,7 +2444,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "agilesdesign/myrtle-core-dock-docks": 20,
-        "agilesdesign/myrtle-core-dock-addresses": 20
+        "agilesdesign/myrtle-core-dock-addresses": 20,
+        "agilesdesign/myrtle-core-dock-phones": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

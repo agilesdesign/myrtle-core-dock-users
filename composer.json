@@ -10,12 +10,14 @@
         }
     ],
     "repositories" : [
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git"},
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"},
-        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git"}
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-phones.git"}
     ],
     "require": {
         "agilesdesign/myrtle-core-dock-docks": "dev-master",
-        "agilesdesign/myrtle-core-dock-addresses": "dev-master"
+        "agilesdesign/myrtle-core-dock-addresses": "dev-master",
+        "agilesdesign/myrtle-core-dock-phones": "dev-master"
     },
     "autoload": {
         "classmap": [
