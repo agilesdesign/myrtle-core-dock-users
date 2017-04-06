@@ -9,8 +9,7 @@
         }
     ],
     "require": {
-        "agilesdesign/myrtle-core-dock-docks": "dev-master",
-        "agilesdesign/pseudo": "1.0.0-alpha.1"
+        "agilesdesign/myrtle-core-dock-docks": "dev-master"
     },
     "autoload": {
         "classmap": [
