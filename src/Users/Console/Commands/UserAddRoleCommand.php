@@ -4,7 +4,7 @@ namespace Myrtle\Core\Users\Console\Commands;
 
 use Myrtle\Roles\Models\Role;
 use Illuminate\Console\Command;
-use Myrtle\Users\Models\UserEmail;
+use Myrtle\Core\Users\Models\UserEmail;
 
 class UserAddRoleCommand extends Command
 {

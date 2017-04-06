@@ -2,9 +2,9 @@
 
 namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 use App\Http\Controllers\Controller;
-use Myrtle\Users\Http\Requests\EnableUserForm;
+use Myrtle\Core\Users\Http\Requests\EnableUserForm;
 
 class UserEnableController extends Controller
 {

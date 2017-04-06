@@ -4,7 +4,7 @@ namespace Myrtle\Core\Users\Http\Requests;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Http\FormRequest;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 
 class DisableUserForm extends FormRequest
 {

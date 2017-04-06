@@ -2,9 +2,9 @@
 
 namespace Myrtle\Core\Users\Models\Traits;
 
-use Myrtle\Users\Models\Observers\UserCascadeObserver;
-use Myrtle\Users\Models\Observers\UserMustHaveOneEmailObserver;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\Observers\UserCascadeObserver;
+use Myrtle\Core\Users\Models\Observers\UserMustHaveOneEmailObserver;
+use Myrtle\Core\Users\Models\User;
 
 trait UserMustHaveOneEmail
 {

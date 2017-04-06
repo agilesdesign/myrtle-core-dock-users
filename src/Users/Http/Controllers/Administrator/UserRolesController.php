@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\Roles\Models\Role;
 use Myrtle\Roles\Policies\RolesPolicy;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 
 class UserRolesController extends Controller
 {

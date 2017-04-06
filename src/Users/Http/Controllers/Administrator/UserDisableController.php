@@ -4,8 +4,8 @@ namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use Carbon\Carbon;
 use App\Http\Controllers\Controller;
-use Myrtle\Users\Http\Requests\DisableUserForm;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Http\Requests\DisableUserForm;
+use Myrtle\Core\Users\Models\User;
 
 class UserDisableController extends Controller
 {

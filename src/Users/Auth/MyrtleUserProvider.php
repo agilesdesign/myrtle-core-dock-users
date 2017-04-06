@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Users\Auth;
 
-use Myrtle\Users\Models\UserEmail;
+use Myrtle\Core\Users\Models\UserEmail;
 use Illuminate\Auth\EloquentUserProvider;
 
 class MyrtleUserProvider extends EloquentUserProvider

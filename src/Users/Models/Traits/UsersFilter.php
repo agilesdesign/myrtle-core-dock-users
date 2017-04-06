@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Users\Models\Traits;
 
 use Illuminate\Support\Facades\Request;
-use Myrtle\Users\Models\Scopes\UsersFilterScope;
+use Myrtle\Core\Users\Models\Scopes\UsersFilterScope;
 
 trait UsersFilter
 {

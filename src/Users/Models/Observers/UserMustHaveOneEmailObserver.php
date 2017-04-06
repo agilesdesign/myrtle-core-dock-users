@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Users\Models\Observers;
 
-use Myrtle\Users\Models\UserEmail;
+use Myrtle\Core\Users\Models\UserEmail;
 
 class UserMustHaveOneEmailObserver
 {

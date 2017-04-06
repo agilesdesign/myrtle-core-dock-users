@@ -4,7 +4,7 @@ namespace Myrtle\Core\Users\Models;
 
 use Myrtle\Roles\Models\Role;
 use Pseudo\Auth\Guest as PseudoGuest;
-use Myrtle\Users\Models\Traits\UserPermissions;
+use Myrtle\Core\Users\Models\Traits\UserPermissions;
 
 class Guest extends PseudoGuest
 {

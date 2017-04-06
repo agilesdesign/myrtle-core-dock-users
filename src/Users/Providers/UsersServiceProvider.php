@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Myrtle\Docks\Facades\Docks;
 use Myrtle\Permissions\Models\Ability;
-use Myrtle\Users\Auth\MyrtleUserProvider;
-use Myrtle\Users\Http\Middleware\LogoutDisabledUsers;
-use Myrtle\Users\Models\Guest;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Auth\MyrtleUserProvider;
+use Myrtle\Core\Users\Http\Middleware\LogoutDisabledUsers;
+use Myrtle\Core\Users\Models\Guest;
+use Myrtle\Core\Users\Models\User;
 use Pseudo\Contracts\GuestContract;
 
 class UsersServiceProvider extends ServiceProvider

@@ -7,7 +7,7 @@ use Myrtle\Permissions\Models\Ability;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Myrtle\Roles\Models\Role;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 
 class UserPermissionsController extends Controller
 {

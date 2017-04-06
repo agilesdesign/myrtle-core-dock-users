@@ -11,10 +11,10 @@ use App\Http\Controllers\Controller;
 use Myrtle\MaritalStatuses\Models\MaritalStatus;
 use Myrtle\Religions\Models\Religion;
 use Myrtle\Roles\Models\Role;
-use Myrtle\Users\Models\User;
-use Myrtle\Users\Policies\UserPolicy;
-use Myrtle\Users\Http\Requests\StoreUserForm;
-use Myrtle\Users\Http\Requests\UpdateUserForm;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Users\Policies\UserPolicy;
+use Myrtle\Core\Users\Http\Requests\StoreUserForm;
+use Myrtle\Core\Users\Http\Requests\UpdateUserForm;
 
 class UsersController extends Controller
 {
@@ -29,7 +29,7 @@ class UsersController extends Controller
 	{
 		$this->authorize('list', UsersDock::class);
 
-		// when a user is authenticated the model \Myrtle\Users\Models\User is booted
+		// when a user is authenticated the model \Myrtle\Core\Users\Models\User is booted
         // authentication happens before the custom configurations are loaded
         // since models are only booted once in the life cycle of the app
         // we need to clear this booted model to ensure it adheres to

@@ -6,7 +6,7 @@ use Flasher\Support\Notifier;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Lang;
-use Myrtle\Users\Auth\SocialiteManager;
+use Myrtle\Core\Users\Auth\SocialiteManager;
 
 class AuthenticationForm extends FormRequest
 {

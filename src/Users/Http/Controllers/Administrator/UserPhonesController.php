@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use Myrtle\Phones\Models\Phone;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 

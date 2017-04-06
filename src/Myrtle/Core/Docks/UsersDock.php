@@ -2,15 +2,15 @@
 
 namespace Myrtle\Core\Docks;
 
-use Myrtle\Users\Console\Commands\CreateUserCommand;
-use Myrtle\Users\Console\Commands\UserAddRoleCommand;
-use Myrtle\Users\Models\User;
-use Myrtle\Users\Policies\UserPolicy;
-use Myrtle\Users\Policies\RegistrationPolicy;
-use Myrtle\Users\Policies\AuthenticationPolicy;
-use Myrtle\Users\Providers\UsersServiceProvider;
+use Myrtle\Core\Users\Console\Commands\CreateUserCommand;
+use Myrtle\Core\Users\Console\Commands\UserAddRoleCommand;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Users\Policies\UserPolicy;
+use Myrtle\Core\Users\Policies\RegistrationPolicy;
+use Myrtle\Core\Users\Policies\AuthenticationPolicy;
+use Myrtle\Core\Users\Providers\UsersServiceProvider;
 use Illuminate\Auth\Access\AuthorizationException;
-use Myrtle\Users\Handlers\AuthorizationExceptionAbettor;
+use Myrtle\Core\Users\Handlers\AuthorizationExceptionAbettor;
 
 class UsersDock extends Dock
 {

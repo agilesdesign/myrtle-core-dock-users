@@ -2,7 +2,7 @@
 
 namespace Myrtle\Core\Users\Models\Observers;
 
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 
 class UserCascadeObserver
 {

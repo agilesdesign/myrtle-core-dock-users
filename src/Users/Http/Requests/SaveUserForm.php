@@ -3,7 +3,7 @@
 namespace Myrtle\Core\Users\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 
 class SaveUserForm extends FormRequest
 {

@@ -4,8 +4,8 @@ namespace Myrtle\Core\Users\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Myrtle\Users\Models\User;
-use Myrtle\Users\Models\UserEmail;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Users\Models\UserEmail;
 
 class CreateUserCommand extends Command
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 use Myrtle\Addresses\Models\Country;
 
 class UsersTableSeeder extends Seeder

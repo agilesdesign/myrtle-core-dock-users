@@ -2,13 +2,13 @@
 
 namespace Myrtle\Core\Users\Http\Controllers;
 
-use Myrtle\Users\Http\Requests\AuthenticationForm;
+use Myrtle\Core\Users\Http\Requests\AuthenticationForm;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Lang;
 use Flasher\Support\Notifier;
-use Myrtle\Users\Policies\AuthenticationPolicy;
+use Myrtle\Core\Users\Policies\AuthenticationPolicy;
 
 class AuthenticationController extends Controller
 {

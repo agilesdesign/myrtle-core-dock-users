@@ -3,8 +3,8 @@
 namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use App\Http\Controllers\Controller;
-use Myrtle\Users\Models\User;
-use Myrtle\Users\Http\Requests\UserNameUpdateForm;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Users\Http\Requests\UserNameUpdateForm;
 
 class UserNameController extends Controller
 {

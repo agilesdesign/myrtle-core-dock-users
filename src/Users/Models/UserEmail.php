@@ -4,7 +4,7 @@ namespace Myrtle\Core\Users\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Myrtle\Users\Models\Traits\UserMustHaveOneEmail;
+use Myrtle\Core\Users\Models\Traits\UserMustHaveOneEmail;
 
 class UserEmail extends Model
 {

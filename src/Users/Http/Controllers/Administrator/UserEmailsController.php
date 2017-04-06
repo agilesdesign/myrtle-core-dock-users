@@ -4,8 +4,8 @@ namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Users\Models\User;
-use Myrtle\Users\Models\UserEmail;
+use Myrtle\Core\Users\Models\User;
+use Myrtle\Core\Users\Models\UserEmail;
 
 class UserEmailsController extends Controller
 {

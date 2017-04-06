@@ -5,7 +5,7 @@ namespace Myrtle\Core\Users\Http\Controllers\Administrator;
 use Illuminate\Http\Request;
 use Myrtle\MaritalStatuses\Models\MaritalStatus;
 use App\Http\Controllers\Controller;
-use Myrtle\Users\Models\User;
+use Myrtle\Core\Users\Models\User;
 use Myrtle\Genders\Models\Gender;
 use Myrtle\Religions\Models\Religion;
 use Myrtle\Ethnicities\Models\Ethnicity;
