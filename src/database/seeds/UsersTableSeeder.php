@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Myrtle\Core\Users\Models\User;
-use Myrtle\Addresses\Models\Country;
+use Myrtle\Core\Addresses\Models\Country;
 
 class UsersTableSeeder extends Seeder
 {

@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Myrtle\Permissions\Models\Traits\CanView;
 use Myrtle\Permissions\Models\Traits\DefinesAbilities;
 use Myrtle\Phones\Models\Traits\Phoneable;
-use Myrtle\Addresses\Models\Traits\Addressable;
+use Myrtle\Core\Addresses\Models\Traits\Addressable;
 use Myrtle\Roles\Models\Traits\Roleable;
 use Myrtle\Core\Users\Events\UserCreating;
 use Myrtle\Core\Users\Events\UserDeleted;

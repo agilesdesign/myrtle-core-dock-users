@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "76f9bd8e909637726d9cd04392e55dd8",
+    "content-hash": "c5170adea9b17767dcfade1ce6003f0d",
     "packages": [
         {
             "name": "agilesdesign/flasher",
@@ -44,6 +44,50 @@
             ],
             "description": "Flash messaging library for Laravel",
             "time": "2016-11-22T01:54:51+00:00"
+        },
+        {
+            "name": "agilesdesign/myrtle-core-dock-addresses",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agilesdesign/myrtle-core-dock-addresses.git",
+                "reference": "a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agilesdesign/myrtle-core-dock-addresses/zipball/a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb",
+                "reference": "a534d6e9a9ecc48a6a0b4e7c8d357329df8f0bbb",
+                "shasum": ""
+            },
+            "require": {
+                "agilesdesign/flasher": "1.0.0-alpha.1",
+                "agilesdesign/myrtle-core-dock-docks": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/database",
+                    "src/Myrtle/Core/Docks"
+                ],
+                "psr-4": {
+                    "Myrtle\\Core\\Addresses\\": "src/Addresses"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Seliga",
+                    "email": "jseliga@agilesdesign.com"
+                }
+            ],
+            "description": "Core Addresses Dock for Myrtle WMS",
+            "support": {
+                "source": "https://github.com/agilesdesign/myrtle-core-dock-addresses/tree/master",
+                "issues": "https://github.com/agilesdesign/myrtle-core-dock-addresses/issues"
+            },
+            "time": "2017-04-06 16:08:34"
         },
         {
             "name": "agilesdesign/myrtle-core-dock-docks",
@@ -627,7 +671,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-04-06T14:06:58+00:00"
+            "time": "2017-04-06 14:06:58"
         },
         {
             "name": "laravel/laravel",
@@ -783,7 +827,7 @@
                 "laravel",
                 "psysh"
             ],
-            "time": "2017-01-31T18:01:41+00:00"
+            "time": "2017-01-31 18:01:41"
         },
         {
             "name": "league/flysystem",
@@ -866,7 +910,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-03-22T15:43:14+00:00"
+            "time": "2017-03-22 15:43:14"
         },
         {
             "name": "league/oauth1-client",
@@ -1007,7 +1051,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-20T10:21:06+00:00"
+            "time": "2017-03-20 10:21:06"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -1155,7 +1199,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05T18:23:57+00:00"
+            "time": "2017-03-05 18:23:57"
         },
         {
             "name": "paragonie/random_compat",
@@ -1455,7 +1499,7 @@
                 "identifier",
                 "uuid"
             ],
-            "time": "2017-03-26T21:03:42+00:00"
+            "time": "2017-03-26 21:03:42"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1509,7 +1553,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-24T19:52:51+00:00"
+            "time": "2017-02-24 19:52:51"
         },
         {
             "name": "symfony/console",
@@ -1577,7 +1621,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-05T15:05:16+00:00"
+            "time": "2017-04-05 15:05:16"
         },
         {
             "name": "symfony/css-selector",
@@ -1630,7 +1674,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-21T10:07:34+00:00"
+            "time": "2017-02-21 10:07:34"
         },
         {
             "name": "symfony/debug",
@@ -2044,7 +2088,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-27T18:09:43+00:00"
+            "time": "2017-03-27 18:09:43"
         },
         {
             "name": "symfony/routing",
@@ -2122,7 +2166,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-22T19:45:31+00:00"
+            "time": "2017-03-22 19:45:31"
         },
         {
             "name": "symfony/translation",
@@ -2253,7 +2297,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-03-25T14:07:47+00:00"
+            "time": "2017-03-25 14:07:47"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -2350,13 +2394,14 @@
                 "env",
                 "environment"
             ],
-            "time": "2017-02-03T22:05:04+00:00"
+            "time": "2017-02-03 22:05:04"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "agilesdesign/myrtle-core-dock-docks": 20
+        "agilesdesign/myrtle-core-dock-docks": 20,
+        "agilesdesign/myrtle-core-dock-addresses": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

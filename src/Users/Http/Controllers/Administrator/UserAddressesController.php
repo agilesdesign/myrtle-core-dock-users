@@ -6,7 +6,7 @@ use Flasher\Support\Notifier;
 use Myrtle\Core\Users\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Myrtle\Addresses\Models\Address;
+use Myrtle\Core\Addresses\Models\Address;
 
 class UserAddressesController extends Controller
 {
