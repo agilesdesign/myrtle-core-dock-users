@@ -17,8 +17,8 @@
         {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-roles.git"}
     ],
     "require": {
-        "agilesdesign/myrtle-core-dock-docks": "dev-master",
         "agilesdesign/myrtle-core-dock-addresses": "dev-master",
+        "agilesdesign/myrtle-core-dock-docks": "dev-master",
         "agilesdesign/myrtle-core-dock-permissions": "dev-master",
         "agilesdesign/myrtle-core-dock-phones": "dev-master",
         "agilesdesign/myrtle-core-dock-roles": "dev-master"
