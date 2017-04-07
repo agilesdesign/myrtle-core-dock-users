@@ -82,8 +82,8 @@ class UsersDock extends Dock
     public function configPaths()
     {
         return [
-            'docks.' . self::class => dirname(__DIR__, 2) . '/config/docks/users.php',
-            'abilities' => dirname(__DIR__, 2) . '/config/abilities.php',
+            'docks.' . self::class => dirname(__DIR__, 3) . '/config/docks/users.php',
+            'abilities' => dirname(__DIR__, 3) . '/config/abilities.php',
         ];
     }
 
@@ -95,7 +95,7 @@ class UsersDock extends Dock
     public function migrationPaths()
     {
         return [
-            dirname(__DIR__, 2) . '/database/migrations',
+            dirname(__DIR__, 3) . '/database/migrations',
         ];
     }
 
@@ -107,8 +107,8 @@ class UsersDock extends Dock
     public function routes()
     {
         return [
-            'admin' => dirname(__DIR__, 2) . '/routes/admin.php',
-            'front' => dirname(__DIR__, 2) . '/routes/front.php',
+            'admin' => dirname(__DIR__, 3) . '/routes/admin.php',
+            'front' => dirname(__DIR__, 3) . '/routes/front.php',
         ];
     }
 }
